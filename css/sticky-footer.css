@@ -1,0 +1,23 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /*Height of Footer*/
+  height: 60px;
+  /*Color of Footer*/
+  background-color: #000;
+}
+.text-muted {
+  /*Centering Footer Text*/
+  margin: 20px 0;
+}
